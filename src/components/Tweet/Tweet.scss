@@ -1,0 +1,43 @@
+.tweet {
+    position: relative;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h5 {
+            margin: 0;
+
+        }
+
+        .icon-delete {
+
+
+
+            &:hover {
+                cursor: pointer;
+                fill: #f00;
+            }
+
+        }
+
+        .icon-edit {
+
+            
+            &:hover {
+                cursor: pointer;
+                fill: rgb(5, 90, 236);
+            }
+
+        }
+    }
+
+
+    &__date-add-tweet {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 10px;
+    }
+}
