@@ -12,7 +12,8 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "^5.0.1",
-    "sass": "^1.93.2"
+    "sass": "^1.93.2",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
